@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.web_iv_pii;
+
+/**
+ *
+ * @author tatya
+ */
+public class Passaro extends Animal {
+    
+     @Override
+    public void andar(){
+        System.out.println("O pássaro está andando!");
+    }
+    @Override
+     public void comer(){
+        System.out.println("O pássaro está comendo!");
+    }
+     
+     public void voar(){
+         System.out.println("O pássaro está voando!");
+     }
+    
+}
